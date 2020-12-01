@@ -6,7 +6,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.ts', '.tsx'],
   },
-  devtool: 'eval-source-map',
+  devetool: 'eval-source-map',
   module: {
     rules: [
       // {

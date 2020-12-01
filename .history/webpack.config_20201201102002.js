@@ -2,11 +2,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = { 
-  entry: './src/index.tsx',
+  entry: './src/index.ts',
   resolve: {
     extensions: ['.js', '.ts', '.tsx'],
   },
-  devtool: 'eval-source-map',
   module: {
     rules: [
       // {
