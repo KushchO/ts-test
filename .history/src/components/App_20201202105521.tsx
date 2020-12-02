@@ -2,10 +2,10 @@ import React from 'react';
 import pizzas from '../data/pizzas.json';
 import Pizza from './pizza';
 
-import appCss from  '../styles/App.module.scss';
+import '../styles/App.module.scss';
 
 const App = () => {  
-return <ul className={appCss.pizzaList}>{pizzas.map(item => <Pizza pizza={item}/>)}</ul>
+return <ul className="pizzaList">{pizzas.map(item => <Pizza pizza={item}/>)}</ul>
 };
 
 export default App;

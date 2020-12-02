@@ -28,12 +28,10 @@ module.exports = {
           // Translates CSS into CommonJS
           {loader: "css-loader", options: {modules: true}},
           // Compiles Sass to CSS
-          {
-            loader: 'sass-loader',
+          loader: 'sass-loader',
             options: {
                 sourceMap: true
             }
-          }
         ],
       }
     ]
